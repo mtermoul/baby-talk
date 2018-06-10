@@ -1,0 +1,146 @@
+import Vue from 'vue'
+import Vuex from 'vuex'
+
+Vue.use(Vuex)
+
+export default new Vuex.Store({
+    state: {
+        generalSettings: {
+            imageRootPath: '/static/images/'
+        },
+        lessonWords: [
+            {lessonId: 1,
+                keywords: ['basic', 'words'],
+                words: [
+                    {title: 'apple', image: 'apple_310591/Apple.jpg'},
+                    {title: 'banana', image: 'Bananas-on-white-background/OGQFCH0.jpg'},
+                    {title: 'shoes', image: 'Baby-trainers/23538-NUPOCL.jpg'},
+                    {title: 'ball', image: 'Colorful-beach-ball/preview.jpg'},
+                    {title: 'dog', image: 'Cute-dogs-illustration/150-01.jpg'},
+                    {title: 'umbrella', image: 'Girl-with-umbrella/5.jpg'},
+                    {title: 'bicycle', image: 'Kid-riding-bike/14861-NPZRVY.jpg'},
+                    {title: 'baby', image: 'Sleeping-baby/OF8OV80.jpg'},
+                    {title: 'book', image: 'a_variety_of_clip_art_books_155211/book1.jpg'}
+                ]},
+            {lessonId: 2,
+                keywords: ['animals'],
+                words: [
+                    {title: 'dog', image: 'Cute-dogs-illustration/150-01.jpg'},
+                    {title: 'cat', image: 'cat-sitting-on-chair/160.jpg'}
+
+                ]},
+            {lessonId: 3,
+                keywords: ['shapes', 'colors'],
+                words: [
+                    {title: 'blue', image: 'Blue-surface-with-creases/ODR9390.jpg'},
+                    {title: 'red', image: 'Painting-wall/902.jpg'},
+                    {title: 'green', image: 'Strokes-of-green-paint/297173-P74JWY-730.jpg'},
+                    {title: 'yellow', image: 'Man-painting-wall-in-yellow/996.jpg'},
+                    {title: 'purple', image: 'Bright-purple-brushstroke-on-wall/234460-P2E33S-270.jpg'},
+                    {title: 'orange', image: 'Orange-and-red-watercolor-background/9216.jpg'}
+                ]},
+            {lessonId: 4,
+                keywords: ['basic', 'words'],
+                words: [
+                    {title: 'bowl', image: 'Chinese-bowl-illustration/preview.jpg'},
+                    {title: 'socks', image: 'cotton-clean-pair-sock-white/6061.jpg'},
+                    {title: 'house', image: 'Cute-collection-of-hand-drawn-houses/100595-OLTVUK-566.jpg'},
+                    {title: 'hat', image: 'Old-fedora-hat/692.jpg'},
+                    {title: 'spoon', image: 'Realistic-fork-and-spoon-Silver-kitchen-stainless-utensil-set/145.jpg'},
+                    {title: 'boat', image: 'Red-sailing-boat-background/115627-OOWO2J-311.jpg'},
+                    {title: 'tshirt', image: 'Repair-shop-t-shirt/12858-NOWM95.jpg'},
+                    {title: 'book', image: 'a_variety_of_clip_art_books_155211/book2.jpg'},
+                    {title: 'book', image: 'a_variety_of_clip_art_books_155211/book3.jpg'}
+
+                ]},
+            {lessonId: 5,
+                keywords: ['food', 'drinks'],
+                words: [
+
+                ]},
+            {lessonId: 6,
+                keywords: ['cars', 'wheels', 'vehicles'],
+                words: [
+                    {title: 'truck', image: 'Classic-delivery-truck-with-flat-design/157794-OV28G6-512.jpg'},
+                    {title: 'airplane', image: 'Airplane-Isometric-Icon/4292.jpg'},
+                    {title: 'bicycle', image: 'Kid-riding-bike/14861-NPZRVY.jpg'},
+                    {title: 'boat', image: 'Red-sailing-boat-background/115627-OOWO2J-311.jpg'},
+                    {title: 'car', image: 'yellow-transportation-motion-automobile-metal/3544.jpg'}
+                ]},
+            {lessonId: 99,
+                keywords: ['others'],
+                words: [
+                    {title: 'car', image: 'Colorful-variety-of-modern-cars/182661-OWXHRO-641.jpg'},
+                    {title: 'toy', image: 'Cute-toys-collection/18652-NRT3Y8.jpg'},
+                    {title: 'ball', image: 'Doodle-soccer-ball/741.jpg'},
+                    {title: 'daddy', image: 'Father-and-son-playing-with-their-noses/ONZ7VS0.jpg'},
+                    {title: 'dragon', image: 'Hand-drawn-baby-dragon-character-collectio/315231-P8TA7F-559.jpg'},
+                    {title: 'mommy', image: 'Mothers-day-concept-with-young-mother-and-daughter/264899-P4TIHM-49.jpg'},
+                    {title: 'toy', image: 'Pack-of-baby-toys/594711.jpg'},
+                    {title: 'star', image: 'Pack-of-decorative-stars/195671-OYZP2S-788.jpg'},
+                    {title: 'drawings', image: 'Pack-with-cute-drawings-for-children-s-day/75376-OEU4M0-497.jpg'},
+                    {title: 'train', image: 'Set-of-colorful-trains-with-flat-design/116912-OR4C4E-867.jpg'},
+                    {title: 'pants', image: 'Shiny-clean-white-womens-pants/OZIB7V0.jpg'},
+                    {title: 'train', image: 'Toy-train-set-in-flat-design/117763-OQ1XWB-365.jpg'},
+                    {title: 'flower', image: 'Tropical-Flowers/61.jpg'},
+                    {title: 'book', image: 'a_variety_of_clip_art_books_155211/book4.jpg'},
+                    {title: 'book', image: 'a_variety_of_clip_art_books_155211/book5.jpg'},
+                    {title: 'book', image: 'a_variety_of_clip_art_books_155211/book6.jpg'},
+                    {title: 'ball', image: 'sport_balls_310254/sport_balls.jpg'}
+                ]}
+        ],
+        introData: {
+            title: 'Welcome to baby talk',
+            image: 'Background-with-decorative-objects-and-boy-reading/108407-ONH61K-867.jpg'
+        },
+        closingData: {
+            title: 'Bye bye',
+            image: 'Theater-stage-background/3988.jpg'
+        },
+        lessons: [
+            {id: 1, title: 'Basic words 1', image: 'Cute-toys-pack/Toys_07.jpg', desc: '', isFlag: false},
+            {id: 2, title: 'Animals 1', image: 'Funny-collection-of-hand-drawn-animals/97112-OLFWYN-117.jpg', desc: '', isFlag: false},
+            {id: 3, title: 'Shapes and Colors', image: 'Frame-collection-with-lineal-style/310315-P92M9B-307.jpg', desc: '', isFlag: false},
+            {id: 4, title: 'Basic words 2', image: 'Pack-of-colorful-dialogs-with-messages/132235-ORZYXN-735.jpg', desc: '', isFlag: false},
+            {id: 5, title: 'Food & Drinks', image: 'Food-icons-collection/ONZ74S0.jpg', desc: '', isFlag: false},
+            {id: 6, title: 'Wheels', image: 'Transport-vehicles-design/OJKD1W0.jpg', desc: '', isFlag: false}
+        ]
+    },
+    getters: {
+        generalSettings (state) {
+            return state.generalSettings
+        },
+        lessons (state) {
+            return state.lessons
+        },
+        getLessonById (state, getters) {
+            return (lessonId) => {
+                return state.lessons.find(item => {
+                    return item.id === lessonId
+                })
+            }
+        },
+        lessonWords (state) {
+            return state.lessonWords
+        },
+        getLessonWordsById (state, getters) {
+            return (lessonId) => {
+                return state.lessonWords.find(item => {
+                    return item.lessonId === lessonId
+                })
+            }
+        },
+        introData (state) {
+            return state.introData
+        },
+        closingData (state) {
+            return state.closingData
+        }
+    },
+    mutations: {
+
+    },
+    actions: {
+
+    }
+})
