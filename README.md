@@ -1,6 +1,6 @@
 # baby-talk
 
-> Baby learning first words
+> Learning tool for kids using vue.js vuex and the browser text-to-speech api
 
 ## Build Setup
 
