@@ -2,14 +2,14 @@
     <v-container fluid fill-height>
         <v-layout justify-center align-center>
             <v-flex xs12 sm4 text-xs-center>
-                <app-slide-player :slides="lessonWords.words" :lesson="lesson"></app-slide-player>
+                <app-slides-player :slides="lessonWords.words" :lesson="lesson"></app-slides-player>
             </v-flex>
         </v-layout>
     </v-container>
 </template>
 
 <script>
-import SlidePlayer from './SlidePlayer.vue'
+import SlidesPlayer from './SlidesPlayer'
 
 export default {
     props: ['id', 'title'],
@@ -27,7 +27,7 @@ export default {
         }
     },
     components: {
-        'app-slide-player': SlidePlayer
+        'app-slides-player': SlidesPlayer
     }
 }
 </script>

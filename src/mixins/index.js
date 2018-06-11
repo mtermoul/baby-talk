@@ -1,4 +1,4 @@
-export const SlideMixins = {
+export default {
     methods: {
         speak (text) {
             let msg = new SpeechSynthesisUtterance()

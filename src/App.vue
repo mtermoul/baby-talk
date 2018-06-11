@@ -21,13 +21,8 @@
 </template>
 
 <script>
-import SlidePlayer from './components/SlidePlayer.vue'
-
 export default {
     name: 'App',
-    components: {
-        'app-slide-player': SlidePlayer
-    },
     computed: {
         firstWords () {
             return this.$store.getters.firstWords
@@ -38,11 +33,6 @@ export default {
 
 <style>
 #app {
-/*  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;*/
+
 }
 </style>

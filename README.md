@@ -2,6 +2,10 @@
 
 > Learning tool for kids using vue.js vuex and the browser text-to-speech api
 
+## Demo
+
+> For a demo version please visit: https://baby-talk-f238f.firebaseapp.com
+
 ## Build Setup
 
 ``` bash
