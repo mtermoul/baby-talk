@@ -10,6 +10,10 @@
 
 <img width="1332" alt="screen shot 2018-06-23 at 3 47 51 pm" src="https://user-images.githubusercontent.com/8376035/41813096-2c49838a-76fd-11e8-9f7f-a3fee5bd94ba.png">
 
+<img width="1211" alt="screen shot 2018-06-23 at 3 48 18 pm" src="https://user-images.githubusercontent.com/8376035/41813118-abb33616-76fd-11e8-9da6-84ffeadab2d6.png">
+
+<img width="1320" alt="screen shot 2018-06-23 at 3 48 46 pm" src="https://user-images.githubusercontent.com/8376035/41813121-be7090e6-76fd-11e8-8186-22172a873812.png">
+
 ## Build Setup
 
 ``` bash
