@@ -9,6 +9,7 @@
             :ommitClosingStep="leaveSlideOn"
             @done="playNextSlide"
         ></component>
+        <v-btn v-show="isDone" :to="{name: 'home'}" class="teal accent-4" color="white--text">Choose you next lesson</v-btn>
     </div>
 </template>
 
@@ -32,7 +33,8 @@ export default {
             currentSlideComponent: 'app-image-and-text-slide',
             currentSlideIndex: 0,
             currentSlide: null,
-            leaveSlideOn: false
+            leaveSlideOn: false,
+            isDone: false
         }
     },
     components: {
@@ -58,6 +60,7 @@ export default {
                 title: slide.title,
                 image: slide.image
             }
+            this.isDone = true
         },
         playNextSlide () {
             if (this.currentSlideIndex < this.slidesCount) {

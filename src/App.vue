@@ -27,6 +27,9 @@ export default {
         firstWords () {
             return this.$store.getters.firstWords
         }
+    },
+    created () {
+        this.$store.dispatch('loadData')
     }
 }
 </script>

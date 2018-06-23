@@ -15,7 +15,7 @@ export default {
     props: ['id', 'title'],
     computed: {
         lessonWords () {
-            return this.$store.getters.getLessonWordsById(Number(this.lesson.id))
+            return this.$store.getters.getLessonContentById(Number(this.lesson.id))
         },
         lesson () {
             if (this.id) {
