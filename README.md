@@ -6,6 +6,10 @@
 
 > For a demo version please visit: https://baby-talk-f238f.firebaseapp.com
 
+## Screenshots
+
+<img width="1332" alt="screen shot 2018-06-23 at 3 47 51 pm" src="https://user-images.githubusercontent.com/8376035/41813096-2c49838a-76fd-11e8-9f7f-a3fee5bd94ba.png">
+
 ## Build Setup
 
 ``` bash
